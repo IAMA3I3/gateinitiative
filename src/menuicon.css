@@ -1,0 +1,27 @@
+.menu-icon {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu-icon .bar1,
+.menu-icon .bar2,
+.menu-icon .bar3 {
+    width: 30px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: white;
+    margin: 8px 0;
+    transition: .4s;
+}
+
+.menu-icon.change .bar1 {
+    transform: translate(0, 12px) rotate(-405deg);
+}
+
+.menu-icon.change .bar2 {
+    opacity: 0;
+}
+
+.menu-icon.change .bar3 {
+    transform: translate(0, -12px) rotate(405deg);
+}

@@ -1,0 +1,470 @@
+.text-lg {
+    font-size: 1.7em !important;
+}
+
+.text-xl {
+    font-size: 2em !important;
+}
+
+.title-text {
+    font-size: 1.4em !important;
+}
+
+.text-sm {
+    font-size: 0.75em !important;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.mb {
+    margin-bottom: 12px !important;
+}
+
+.mb-lg {
+    margin-bottom: 24px !important;
+}
+
+.mb-xl {
+    margin-bottom: 48px !important;
+}
+
+.py {
+    padding: 64px 0 !important;
+}
+
+.py-sm {
+    padding: 24px 0 !important;
+}
+
+.mb-sm {
+    margin-bottom: 6px !important;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container {
+    padding: 0 5%;
+}
+
+.bg-img-lg,
+.bg-img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .15;
+    /* display: none; */
+    z-index: -1;
+}
+
+.bg-img {
+    display: block;
+}
+
+.app-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.app-list li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.app-list li::before {
+    content: "";
+    margin-right: 5px;
+    display: inline-block;
+    height: 4px;
+    width: 12px;
+    background-color: gold;
+    border-radius: 2px;
+}
+
+img.w-100 {
+    width: 100% !important;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.carousel-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 6px 12px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 6px;
+    color: white;
+    text-wrap: nowrap;
+    margin-bottom: 60px;
+}
+
+.carousel-btn:hover {
+    background: rgba(255, 255, 255, 0.441);
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.about-inner {
+    display: block;
+}
+
+.abt-sm-container,
+.abt-container {
+    position: relative;
+    padding: 12px;
+    border-radius: 6px 32px;
+    width: 100%;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.abt-sm-container {
+    background-color: rgb(10, 0, 95, 0.2);
+}
+
+#board {
+    background-color: rgb(154, 143, 255);
+    padding: 24px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.app-card {
+    width: 300px;
+    /* height: 400px; */
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgb(44, 44, 44);
+}
+
+.app-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.app-card .inner {
+    padding: 12px;
+    text-align: center;
+}
+
+.app-btn {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 6px 12px;
+    background: transparent;
+    border: 2px solid rgb(10, 0, 95);
+    border-radius: 6px;
+    color: rgb(10, 0, 95);
+    text-wrap: nowrap;
+}
+
+.app-btn:hover {
+    background-color: rgb(10, 0, 95, 0.2);
+}
+
+.app-card .inner .app-btn {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 12px 0;
+}
+
+#blog {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/img/blog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+#blog .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 0, 95, 0.8);
+}
+
+#blog .app-container {
+    position: relative;
+}
+
+.donate .content,
+#blog .content {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px 24px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    break-inside: avoid-column;
+    margin-bottom: 24px;
+}
+
+.donate .content {
+    padding: 24px;
+    background-color: rgb(10, 0, 95, 0.2);
+}
+
+.min .content .body,
+#blog .content .body {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;  /* Number of lines displayed before it truncate */
+     overflow: hidden;
+}
+
+.gold {
+    color: gold;
+}
+
+#blog .content a {
+    display: inline-block;
+    color: rgb(235, 235, 235);
+    font-size: 0.8em;
+    margin: 12px 0;
+}
+
+#blog .text-sm {
+    color: rgb(209, 209, 209);
+}
+
+.grid-2 {
+    position: relative;
+    column-count: 1;
+}
+
+.btn-container {
+    padding: 24px 0;
+}
+
+#blog .app-btn {
+    color: white;
+    border: 2px solid white;
+}
+
+#blog .app-btn:hover {
+    background-color: rgba(255, 255, 255, 0.397);
+}
+
+.grid-4 {
+    position: relative;
+    column-count: 1;
+}
+
+.app-form {
+    position: relative;
+}
+
+.app-form select,
+.app-form textarea,
+.app-form input {
+    font-size: 1.2em;
+    padding: 6px 12px;
+    border: 2px solid rgb(114, 114, 114);
+    border-radius: 8px;
+    resize: none;
+    outline: none;
+    background: transparent;
+    margin: 8px 0;
+}
+
+.app-form textarea {
+    height: 150px;
+}
+
+.app-form select:focus,
+.app-form textarea:focus,
+.app-form input:focus {
+    border: 2px solid rgb(10, 0, 95);
+}
+
+#contact {
+    position: relative;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .3;
+}
+
+#contact textarea,
+#contact input {
+    width: 100%;
+}
+
+#contact button {
+    display: block;
+    margin: auto;
+}
+
+.footer {
+    background-color: rgb(10, 0, 95, 0.2);
+}
+
+/*  */
+.showcase {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+
+.showcase img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.showcase .overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.pictures .item {
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgb(45, 45, 45);
+    border-radius: 4px;
+    margin-bottom: 24px;
+    break-inside: avoid-column;
+}
+
+.pictures .item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.joinus-form .flex-container {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.joinus-form .label {
+    width: 100%;
+}
+
+.joinus-form .input {
+    width: 100%;
+}
+
+.joinus-form select,
+.joinus-form .input input {
+    width: 100%;
+}
+
+.joinus-form select,
+.joinus-form input {
+    margin: 0;
+}
+
+.joinus-form .file input {
+    display: none;
+}
+
+.checkbox {
+    display: flex;
+}
+
+@media (min-width: 480px) {
+    .grid-4 {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 720px) {
+    .text-lg {
+        font-size: 2em !important;
+    }
+
+    .text-xl {
+        font-size: 2.2em !important;
+    }
+
+    .text-sm {
+        font-size: 0.8em !important;
+    }
+
+    .app-container {
+        padding: 0 10%;
+    }
+
+    .about-inner {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .abt-sm-container,
+    .abt-container {
+        width: 48%;
+        padding: 32px;
+        margin-bottom: 0px;
+        background-color: rgb(10, 0, 95, 0.2);
+    }
+
+    .bg-img-lg {
+        display: block;
+    }
+
+    .grid-2 {
+        column-count: 2;
+    }
+
+    .grid-4 {
+        column-count: 4;
+    }
+
+    .joinus-form .label {
+        width: 20%;
+    }
+
+    .joinus-form .input {
+        width: 75%;
+    }
+}
